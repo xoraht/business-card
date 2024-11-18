@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+/* HOME/GUEST NAPIS */
+.board-title {
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    text-shadow: 0 0 3px white;
+}
+/* CZARNE KONTENERY */
+.home-guest-score {
+    margin: 10px 0 25px 0;
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    box-shadow: 0 5px 15px black;
+    text-shadow: 0 0 5px red;
+}
+/* PUNKTY CZARNE KONTENERY */
+.home-guest-points-text {
+    display: block;
+    padding-top: 17px;
+}
+/* PUNKTY PLUS */
+.plus-point {
+    font-family: 'Cursed Timer ULiL';
+    color: #9AABD8;
+    font-size: 18px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.plus-point:hover {
+    text-shadow: 0 0 3px white;
+    color: white;
+}
