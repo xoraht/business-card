@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    margin: 0;
+    background: #1F2937;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+header {
+    margin: 50px 50px 35px 50px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+#header-title {
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+#header-comment {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #D5D4D8;
+    margin: 10px 0px 50px;
+    letter-spacing: 0.03em;
+}
+
+#header-title-color {
+    color:#4ADF86;
+}
+
+#genPassBtn {
+    background: #10B981;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#genPassBtn:hover {
+    background: #0D9488;
+}
+
+main {
+    display: flex;
+    margin: 35px 50px 50px 50px;
+}
+
+.result {
+    background: #273549;
+    width: 210px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #55F991;
+    font-size: 16px;
+}
+
+#result1 {
+    margin-right: 10px;
+}
+
+#result2 {
+    margin-left: 10px;
+}
+
+
+
+
+
