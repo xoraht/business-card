@@ -16,7 +16,7 @@ header {
 }
 
 #header-title {
-    font-size: 32px;
+    font-size: 64px;
     font-weight: bold;
     background: #0F0D14;
     padding: 10px 20px;
@@ -24,15 +24,15 @@ header {
     margin-bottom: 10px;
 }
 #header-subtitle {
-    font-size: 19px;
+    font-size: 38px;
     background: #24202B;
     padding: 10px 10px;
     border-radius: 10px;
-    width: 300px;
+    width: 600px;
 }
 
 main {
-    font-size: 24px;
+    font-size: 48px;
     background: #202F4A;
     margin: 0;
     padding-bottom: 40px;
@@ -47,19 +47,19 @@ main {
 section {
     display: flex;
     justify-content: space-around;
-    line-height: 18px;
+    line-height: 32px;
 }
 .main-images {
     width: 100px;
     border-radius: 50%;
 }
 .section-title-text {
-    font-size: 16px;
+    font-size: 32px;
     color: #EB9B5F;
     font-weight: bold;
 }
 .section-description-text {
-    font-size: 16px;
+    font-size: 32px;
     color: #EB9B5F;
     
 }

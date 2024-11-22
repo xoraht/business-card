@@ -16,14 +16,14 @@ header {
 
 #header-title {
     font-family: 'Karla';
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 800;
     margin-bottom: 10px;
-    line-height: 40px;
+    line-height: 80px;
 }
 
 #header-comment {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 400;
     color: #D5D4D8;
     margin: 10px 0px 50px;
@@ -39,7 +39,7 @@ header {
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
@@ -56,13 +56,13 @@ main {
 
 .result {
     background: #273549;
-    width: 210px;
+    width: 420px;
     border-radius: 5px;
-    height: 40px;
-    line-height: 40px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
     color: #55F991;
-    font-size: 16px;
+    font-size: 32px;
 }
 
 #result1 {
