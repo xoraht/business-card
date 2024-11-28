@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Smythe, Verdana;
+} 
+/* HEADER SECTION  */
+header {
+    background-image: url(./images/burger.jpg);
+    background-position-y: 70%;
+    background-size: 100%;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+}
+.header-container {
+    padding: 45px;
+}
+h1 {
+    font-size: 2.44em;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+h2 {
+    margin: 0;
+    font-weight: 400;
+}
+/* MAIN SECTION */
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+.main-container-item {
+    margin: 0 50px;
+    display: flex;
+    align-items: start;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 60px 0;
+}
+.main-section-product-image {
+    font-size: 4.38em;
+    margin: 0;
+}
+.main-section-product-details-title {
+    font-size: 1.75em;
+    font-weight: 400;
+    margin: 0px;
+}
+.main-section-product-details-description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #8B8B8B;
+    margin: 8px 0;
+}
+.main-section-product-details-price {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 0px;
+}
+.main-section-product-button {
+    background: none;
+    font-family: 'Inter';
+    color: #3C3C3C;
+    border: 2px solid #DEDEDE;
+    border-radius: 50%;
+    font-size: 2em;
+    font-weight: 200;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-left: auto;
+}
+/* FOOTER SECTION */
+footer {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-container {
+    margin: 50px;
+}
+.footer-section-title {
+    font-size: 28px;
+    font-weight: 400;
+}
+.footer-section-items {
+    padding: 40px 0 20px 0;
+}
+.footer-section-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section-item-remove {
+    border: none;
+    background: none;
+    font-family: 'Verdana';
+    font-size: 0.75em;
+    margin-right: auto;
+    color: #BBBBBB;
+}
+
+/* TOTAL SECTION */
+.footer-section-complete {
+    border-top: 2px solid #393333;
+}
+.complete-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.complete-button {
+    background: #16DB99;
+    color: white;
+    font-family: 'Verdana';
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* FIXED */
+.payment-details {
+    position: fixed;
+    width: 520px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: -260px;
+    align-items: center;
+    font-family: 'Verdana';
+    box-shadow: 0 0 10px black;
+    display: none;
+}
+.payment-details-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 45px 0;
+}
+.payment-details-input {
+    font-weight: 400;
+    color: #757575;
+    padding: 10px 120px;
+    margin: 5px;
+}
