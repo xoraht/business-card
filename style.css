@@ -5,22 +5,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 img {
     width: 25%;
     max-width: 230px;
-    margin-left: 1.25em;
-    border: 0.125rem solid #aaaaaa;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 h1 {
-    font-size: 6.25rem;
+    font-size: 3rem;
 }
 
 ul {
