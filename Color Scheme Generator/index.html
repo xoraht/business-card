@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <header>
+        <form id="scheme-form">
+            <input type="color" value="#000000" id="color-input">
+            <select id="mode-select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-Dark</option>
+                <option value="monochrome-light">Monochrome-Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="submit-btn">Get Color Scheme</button>
+        </form>
+    </header>
+    <main id="color-palette">
+        <div class="color-bar" id="color-bar-0"></div>
+        <div class="color-bar" id="color-bar-1"></div>
+        <div class="color-bar" id="color-bar-2"></div>
+        <div class="color-bar" id="color-bar-3"></div>
+        <div class="color-bar" id="color-bar-4"></div>
+    </main>
+    <footer>
+        <p id="hex-code-0">#000000</p>
+        <p id="hex-code-1">#1A1919</p>
+        <p id="hex-code-2">#343232</p>
+        <p id="hex-code-3">#4F4A4A</p>
+        <p id="hex-code-4">#6A6262</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
